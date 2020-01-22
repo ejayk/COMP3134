@@ -1,0 +1,88 @@
+-- ACTIVITY ONE --
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap 8.8.8.8
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 03:25 UTC
+Nmap scan report for dns.google (8.8.8.8)
+Host is up (0.00094s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+53/tcp  open  domain
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 16.78 seconds
+-------------------------------------------------------------------------
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap facebook.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 03:26 UTC
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.00053s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+843/tcp  closed unknown
+5222/tcp closed xmpp-client
+
+Nmap done: 1 IP address (1 host up) scanned in 16.59 seconds
+-------------------------------------------------------------------------
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap youtube.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 03:27 UTC
+Nmap scan report for youtube.com (172.217.1.174)
+Host is up (0.00091s latency).
+Other addresses for youtube.com (not scanned): 2607:f8b0:400b:802::200e
+rDNS record for 172.217.1.174: yyz10s04-in-f14.1e100.net
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 8.67 seconds
+
+
+-- ACTIVITY TWO --
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 80 youtube.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 03:31 UTC
+Nmap scan report for youtube.com (172.217.1.14)
+Host is up (0.0015s latency).
+Other addresses for youtube.com (not scanned): 2607:f8b0:400b:802::200e
+rDNS record for 172.217.1.14: yyz10s14-in-f14.1e100.net
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.50 seconds
+
+-- ACTIVITY THREE --
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 80-1000 facebook.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 03:32 UTC
+Nmap scan report for facebook.com (31.13.80.36)
+Host is up (0.00055s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+Not shown: 918 filtered ports
+PORT    STATE  SERVICE
+80/tcp  open   http
+443/tcp open   https
+843/tcp closed unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 15.98 seconds
+
+-- ACTIVITY FOUR --
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -F gmail.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 03:33 UTC
+Nmap scan report for gmail.com (172.217.1.165)
+Host is up (0.0012s latency).
+Other addresses for gmail.com (not scanned): 2607:f8b0:400b:800::2005
+rDNS record for 172.217.1.165: yyz10s04-in-f5.1e100.net
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.82 seconds

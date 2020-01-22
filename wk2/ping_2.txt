@@ -1,0 +1,20 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# ping 138.197.166.224
+PING 138.197.166.224 (138.197.166.224) 56(84) bytes of data.
+64 bytes from 138.197.166.224: icmp_seq=1 ttl=64 time=0.060 ms
+64 bytes from 138.197.166.224: icmp_seq=2 ttl=64 time=0.108 ms
+64 bytes from 138.197.166.224: icmp_seq=3 ttl=64 time=0.077 ms
+64 bytes from 138.197.166.224: icmp_seq=4 ttl=64 time=0.090 ms
+64 bytes from 138.197.166.224: icmp_seq=5 ttl=64 time=0.062 ms
+64 bytes from 138.197.166.224: icmp_seq=6 ttl=64 time=0.068 ms
+64 bytes from 138.197.166.224: icmp_seq=7 ttl=64 time=0.078 ms
+64 bytes from 138.197.166.224: icmp_seq=8 ttl=64 time=0.058 ms
+64 bytes from 138.197.166.224: icmp_seq=9 ttl=64 time=0.075 ms
+64 bytes from 138.197.166.224: icmp_seq=10 ttl=64 time=0.058 ms
+64 bytes from 138.197.166.224: icmp_seq=11 ttl=64 time=0.052 ms
+64 bytes from 138.197.166.224: icmp_seq=12 ttl=64 time=0.081 ms
+64 bytes from 138.197.166.224: icmp_seq=13 ttl=64 time=0.063 ms
+64 bytes from 138.197.166.224: icmp_seq=14 ttl=64 time=0.060 ms
+^C
+--- 138.197.166.224 ping statistics ---
+14 packets transmitted, 14 received, 0% packet loss, time 13288ms
+rtt min/avg/max/mdev = 0.052/0.070/0.108/0.017 ms
