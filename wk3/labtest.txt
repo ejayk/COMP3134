@@ -1,0 +1,135 @@
+101125413 - Atari
+
+Esther Kim ----- Question 1 -----
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap atari.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 18:10 UTC
+Nmap scan report for atari.com (198.61.147.252)
+Host is up (0.013s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 16.98 seconds
+
+
+Ports: 80, 443.
+
+----- Question 2 -----
+
+number of employees - 600+
+CEO - Frederic Chesnais
+CFO - Frederic Chesnais
+President - Sam Tramiel
+current job postings - none
+headquarter locations - Atari US Headquarters / 417 Fifth Avenue / New York, NY 
+
+----- Question 3 -----
+
+Domain Name: atari.com
+Registry Domain ID: 4367606_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.corporatedomains.com
+Registrar URL: www.cscprotectsbrands.com
+Updated Date: 2019-03-27T05:50:22Z
+Creation Date: 1998-04-01T05:00:00Z
+Registrar Registration Expiration Date: 2020-03-31T04:00:00Z
+Registrar: CSC CORPORATE DOMAINS, INC.
+Sponsoring Registrar IANA ID: 299
+Registrar Abuse Contact Email: email@cscglobal.com
+Registrar Abuse Contact Phone: +1.8887802723
+Domain Status: serverDeleteProhibited http://www.icann.org/epp#serverDeleteProhibited
+Domain Status: serverTransferProhibited http://www.icann.org/epp#serverTransferProhibited
+Domain Status: serverUpdateProhibited http://www.icann.org/epp#serverUpdateProhibited
+Registry Registrant ID: 
+Registrant Name: Atari Interactive Inc
+Registrant Organization: Atari Interactive, Inc.
+Registrant Street: 417 Fifth Avenue
+Registrant City: New York
+Registrant State/Province: NY
+Registrant Postal Code: 10016
+Registrant Country: US
+Registrant Phone: +1.2127266500
+Registrant Phone Ext: 
+Registrant Fax: +1.2127264214
+Registrant Fax Ext: 
+Registrant Email: email@atari.com
+Registry Admin ID: 
+Admin Name: Atari Interactive Inc
+Admin Organization: Atari Interactive, Inc.
+Admin Street: 417 Fifth Avenue
+Admin City:  New York
+Admin State/Province: NY
+Admin Postal Code: 10016
+Admin Country: US
+Admin Phone: +1.2127266500
+Admin Phone Ext: 
+Admin Fax: +1.2127264214
+Admin Fax Ext: 
+Admin Email: email@atari.com
+Registry Tech ID: 
+Tech Name: Netnames Hostmaster
+Tech Organization: NetNames USA
+Tech Street: 55 Broad Street
+Tech City: NEW YORK
+Tech State/Province: NY
+Tech Postal Code: 10004
+Tech Country: US
+Tech Phone: +1.2126274599
+Tech Phone Ext: 
+Tech Fax: +1.2126275744
+Tech Fax Ext: 
+Tech Email: email@netnames.com
+Name Server: dns2.cscdns.net
+Name Server: dns1.cscdns.net
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2019-03-27T05:50:22Z <<<
+
+
+----- Question 4 -----
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# ping atari.com
+PING atari.com (198.61.147.252) 56(84) bytes of data.
+64 bytes from 198.61.147.252 (198.61.147.252): icmp_seq=1 ttl=244 time=13.2 ms
+64 bytes from 198.61.147.252 (198.61.147.252): icmp_seq=2 ttl=244 time=12.3 ms
+64 bytes from 198.61.147.252 (198.61.147.252): icmp_seq=3 ttl=244 time=12.2 ms
+64 bytes from 198.61.147.252 (198.61.147.252): icmp_seq=4 ttl=244 time=12.2 ms
+64 bytes from 198.61.147.252 (198.61.147.252): icmp_seq=5 ttl=244 time=12.1 ms
+64 bytes from 198.61.147.252 (198.61.147.252): icmp_seq=6 ttl=244 time=12.1 ms
+64 bytes from 198.61.147.252 (198.61.147.252): icmp_seq=7 ttl=244 time=12.2 ms
+64 bytes from 198.61.147.252 (198.61.147.252): icmp_seq=8 ttl=244 time=12.8 ms
+64 bytes from 198.61.147.252 (198.61.147.252): icmp_seq=9 ttl=244 time=12.2 ms
+64 bytes from 198.61.147.252 (198.61.147.252): icmp_seq=10 ttl=244 time=12.5 ms
+^C
+--- atari.com ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9015ms
+rtt min/avg/max/mdev = 12.180/12.425/13.257/0.342 ms
+
+----- Question 5 -----
+traceroute to atari.com (198.61.147.252), 64 hops max, 52 byte packets
+ 1  10.4.64.1 (10.4.64.1)  17.292 ms  53.986 ms  46.686 ms
+ 2  198.96.85.3 (198.96.85.3)  2.055 ms  2.174 ms  2.525 ms
+ 3  ut-hub-gbrownc-if-internet.gtanet.ca (205.211.94.173)  3.177 ms  2.673 ms  2.664 ms
+ 4  v654.core1.tor1.he.net (216.66.30.113)  2.933 ms  2.328 ms  9.036 ms
+ 5  100ge9-2.core2.chi1.he.net (184.105.80.5)  12.458 ms  12.591 ms  12.146 ms
+ 6  bbr1.ord1.rackspace.net (208.115.136.14)  12.690 ms  12.919 ms  13.142 ms
+ 7  * * *
+ 8  dcpe1-coreb.ord1.rackspace.net (50.56.6.163)  20.999 ms
+    50.56.6.255 (50.56.6.255)  16.626 ms
+    dcpe1-coreb.ord1.rackspace.net (50.56.6.163)  16.470 ms
+ 9  coreb-core6.ord1.rackspace.net (50.56.6.135)  17.000 ms
+    corea-core5.ord1.rackspace.net (50.56.6.129)  17.285 ms
+    corea-core6.ord1.rackspace.net (50.56.6.133)  18.585 ms
+10  core5-aggr1201a-3.ord1.rackspace.net (50.56.6.151)  16.882 ms  15.972 ms
+    core6-aggr1201a-3.ord1.rackspace.net (23.253.15.187)  17.085 ms
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+[Continues to 64]
