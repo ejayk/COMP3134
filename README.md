@@ -11,7 +11,7 @@ Week | Link
 06 | Lab Test 2
 07 | [Lab 5](./wk7)
 08 | Intercession Week
-09 | Lab Catch-Up, [Lab 6](./wk9)
+09 | [Lab 6](./wk9)
 10 | [Lab 7](./wk10)
 11 | Covid (Out)Break
 12 | [Lab 8](./wk12)
