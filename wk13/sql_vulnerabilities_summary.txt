@@ -1,0 +1,6 @@
+1) Nothing is shown. Expected result.
+
+2) Values for entry with name='Ben' is shown. "-- " comments out sql code and thus bypasses active field validation.
+Not as I expected but interesting to see.
+
+3) Nothing shown. As expected.

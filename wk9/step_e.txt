@@ -1,0 +1,2 @@
+I would DELETE any ''../'' parts of the SQL string, 
+making not possible to any user to navigate the directories.

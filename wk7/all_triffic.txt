@@ -1,0 +1,1 @@
+tcpdump -w all_traffic_20200415_1010 -s 0

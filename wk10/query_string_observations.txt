@@ -1,0 +1,17 @@
+1
+Options for words that are similar appear under the input text box.
+
+
+2
+No results found for [invalid word]
+Did you mean [similar valid word]?
+More suggestions:
+[More similar valid words]
+
+
+3
+Shows results for web pages that include the term 'hello' with the one's with 'hello' in the title showing first
+
+
+4
+Same as above

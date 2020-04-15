@@ -1,0 +1,30 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+13:36:04.580794 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPEf81d0fa0c6a3-CMf81d0fa0c6a0.cpe.net.fido.ca.61941: Flags [P.], seq 2368304927:2368304971, ack 3056378912, win 315, options [nop,nop,TS val 2054931004 ecr 411336406], length 44
+13:36:04.580912 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPEf81d0fa0c6a3-CMf81d0fa0c6a0.cpe.net.fido.ca.61941: Flags [P.], seq 44:152, ack 1, win 315, options [nop,nop,TS val 2054931004 ecr 411336406], length 108
+13:36:04.580991 IP lamp-s-1vcpu-1gb-tor1-01.ssh > CPEf81d0fa0c6a3-CMf81d0fa0c6a0.cpe.net.fido.ca.61941: Flags [P.], seq 152:188, ack 1, win 315, options [nop,nop,TS val 2054931004 ecr 411336406], length 36
+13:36:04.596947 IP CPEf81d0fa0c6a3-CMf81d0fa0c6a0.cpe.net.fido.ca.61941 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 0, win 2047, options [nop,nop,TS val 411336486 ecr 2054931000], length 0
+13:36:04.597000 IP CPEf81d0fa0c6a3-CMf81d0fa0c6a0.cpe.net.fido.ca.61941 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 188, win 2045, options [nop,nop,TS val 411336491 ecr 2054931004], length 0
+13:36:04.704230 IP lamp-s-1vcpu-1gb-tor1-01.http > sub-131ip61.e-commercepark.com.63301: Flags [S.], seq 2084662723, ack 1718075455, win 29200, options [mss 1460], length 0
+13:36:05.399532 IP 193.142.146.88.56036 > lamp-s-1vcpu-1gb-tor1-01.40620: Flags [S], seq 3485715092, win 1024, length 0
+13:36:06.432228 IP lamp-s-1vcpu-1gb-tor1-01.http > sub-154ip239.e-commercepark.com.42475: Flags [S.], seq 2615014701, ack 4146086991, win 29200, options [mss 1460], length 0
+13:36:06.944212 IP lamp-s-1vcpu-1gb-tor1-01.http > sub-154ip239.e-commercepark.com.28551: Flags [S.], seq 1465385081, ack 2506204739, win 29200, options [mss 1460], length 0
+13:36:07.200264 IP lamp-s-1vcpu-1gb-tor1-01.http > sub-131ip33.e-commercepark.com.48792: Flags [S.], seq 1342204440, ack 2002321001, win 29200, options [mss 1460], length 0
+13:36:08.238686 IP sub-131ip61.e-commercepark.com.21431 > lamp-s-1vcpu-1gb-tor1-01.http: Flags [S], seq 76894500, win 29200, length 0
+13:36:08.238768 IP lamp-s-1vcpu-1gb-tor1-01.http > sub-131ip61.e-commercepark.com.21431: Flags [S.], seq 3767896198, ack 76894501, win 29200, options [mss 1460], length 0
+13:36:08.736201 IP lamp-s-1vcpu-1gb-tor1-01.http > sub-131ip61.e-commercepark.com.63301: Flags [S.], seq 2084662723, ack 1718075455, win 29200, options [mss 1460], length 0
+13:36:09.248202 IP lamp-s-1vcpu-1gb-tor1-01.http > sub-131ip61.e-commercepark.com.21431: Flags [S.], seq 3767896198, ack 76894501, win 29200, options [mss 1460], length 0
+13:36:11.185199 IP 92.63.194.11.39783 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 2286870627:2286870648, ack 908022350, win 29, options [nop,nop,TS val 1339097181 ecr 2209317977], length 21
+13:36:11.185268 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 92.63.194.11.39783: Flags [.], ack 21, win 227, options [nop,nop,TS val 2209325720 ecr 1339097181], length 0
+13:36:11.186911 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 92.63.194.11.39783: Flags [P.], seq 1:1081, ack 21, win 227, options [nop,nop,TS val 2209325722 ecr 1339097181], length 1080
+13:36:11.264203 IP lamp-s-1vcpu-1gb-tor1-01.http > sub-131ip61.e-commercepark.com.21431: Flags [S.], seq 3767896198, ack 76894501, win 29200, options [mss 1460], length 0
+13:36:11.277279 IP 92.63.194.11.39783 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1081, win 31, options [nop,nop,TS val 1339097204 ecr 2209325722], length 0
+13:36:11.538613 IP 92.63.194.11.39783 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 21:485, ack 1081, win 31, options [nop,nop,TS val 1339097269 ecr 2209325722], length 464
+13:36:11.552215 IP lamp-s-1vcpu-1gb-tor1-01.http > sub-131ip40.e-commercepark.com.62786: Flags [S.], seq 1421129324, ack 1039218470, win 29200, options [mss 1460], length 0
+13:36:11.580221 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 92.63.194.11.39783: Flags [.], ack 485, win 235, options [nop,nop,TS val 2209326115 ecr 1339097269], length 0
+13:36:11.748213 IP sub-154ip242.e-commercepark.com.32976 > lamp-s-1vcpu-1gb-tor1-01.http: Flags [S], seq 690317163, win 29200, length 0
+13:36:11.748297 IP lamp-s-1vcpu-1gb-tor1-01.http > sub-154ip242.e-commercepark.com.32976: Flags [S.], seq 3728673597, ack 690317164, win 29200, options [mss 1460], length 0
+13:36:11.791483 IP sub-154ip242.e-commercepark.com.32976 > lamp-s-1vcpu-1gb-tor1-01.http: Flags [R], seq 690317164, win 16384, length 0
+13:36:13.427371 IP sub-131ip40.e-commercepark.com.55530 > lamp-s-1vcpu-1gb-tor1-01.http: Flags [S], seq 653121368, win 29200, length 0
+13:36:13.427470 IP lamp-s-1vcpu-1gb-tor1-01.http > sub-131ip40.e-commercepark.com.55530: Flags [S.], seq 1642687028, ack 653121369, win 29200, options [mss 1460], length 0
+root@lamp-s-1vcpu-1gb-tor1-01:~# 

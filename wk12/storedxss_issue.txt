@@ -1,0 +1,5 @@
+The user will see a blank page, but on the console page, you can see:
+<script>document.location.href=/directory_traversal_part1.php<script>
+
+This shows a js injection which is a type of attack and 
+can allow for things such as cookie manipulation, while not showing anything on the page.

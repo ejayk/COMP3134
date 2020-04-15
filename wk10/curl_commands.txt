@@ -1,0 +1,6 @@
+
+curl -X GET 'https://www.dictionary.com/browse/curl'
+curl -X GET 'https://www.dictionary.com/browse/curlxyz'
+curl -X GET 'http://159.203.24.113/sending_info_to_app_1.php?q=helloworld'
+curl -X GET "http://159.203.24.113/sending_info_to_app_1.php?q=<script>document.write('overwrite_everything')</script>"
+curl -X GET "http://159.203.24.113/sending_info_to_app_2.php?q=<script>document.write('overwrite_everything')</script>"

@@ -1,0 +1,2 @@
+htmlentities() can convert tags to text then display text on the browser page,
+but strip_tags() only can remove all tags from a string

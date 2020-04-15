@@ -1,0 +1,2 @@
+Removing comments 
+Adding echo to print in php
