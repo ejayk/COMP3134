@@ -16,5 +16,5 @@ Week | Link
 11 | Covid (Out)Break
 12 | [Lab 8](./wk12)
 13 | Lab Test 3
-14 | [Lab 9](./wk13)
+14 | [Lab 9](./wk14)
 15 | Final Exam
