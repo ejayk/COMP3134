@@ -5,7 +5,7 @@ Week | Link
 --- | ---
 01 | [Lab 1](./wk1)
 02 | [Lab 2](./wk2)
-03 | [Lab Test 1](./wk3)
+03 | Lab Test 1
 04 | [Lab 3](./wk4)
 05 | [Lab 4](./wk5)
 06 | Lab Test 2 , [Lab 5](./wk6)
